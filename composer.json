@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/yii-jqrelcopy",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "james",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    
+  }
+}
