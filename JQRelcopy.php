@@ -73,7 +73,7 @@ class JQRelcopy extends CWidget
 		$this->_assets = Yii::app()->assetManager->publish(dirname(__FILE__).DIRECTORY_SEPARATOR.'assets');
 
 		Yii::app()->clientScript->registerCoreScript('jquery')
-		          ->registerScriptFile($this->_assets.'/js/jquery.relcopy.1.1.js');
+		          ->registerScriptFile($this->_assets.'/js/jquery.relcopy.1.1.js', CClientScript::POS_END);
 
 		if (!empty($this->removeText))
 		{
