@@ -1,15 +1,15 @@
 {
-  "name": "vendor_name/yii-jqrelcopy",
-  "description": "description",
+  "name": "gicharu/yii-jqrelcopy",
+  "description": "Yii 1.1.x wrapper for jquery relcopy",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
       "name": "james",
-      "email": "email@example.com"
+      "email": "patjayke@gmail.com"
     }
   ],
   "require": {
-    
+    "yiisoft/yii": "1.1.*"
   }
 }
